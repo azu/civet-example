@@ -1,0 +1,19 @@
+sum := (a:number, b:number) => a + b
+square := (a:number) => a * a
+
+fun := -> 
+  console.log "It's all fun and games till it breaks"
+
+song := ["do", "re", "mi", "fa", "so"]
+
+singers := {Jagger: "Rock", Elvis: "Roll"}
+
+bitlist := [
+  1, 0, 1
+  0, 0, 1
+  1, 1, 0
+];
+
+
+// hey jsx dudes... here
+Component := () => <>{bitlist.map (x) => <p>x</p> }</>
